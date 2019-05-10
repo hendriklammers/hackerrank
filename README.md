@@ -1,6 +1,6 @@
 # hackerrank-haskell
 
-Solutions for Hackerrank written in Haskell
+HackerRank solutions written in Haskell
 
 
 ## License
