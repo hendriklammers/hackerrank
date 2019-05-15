@@ -4,8 +4,7 @@ getInts :: IO [Int]
 getInts = map read . words <$> getLine
 
 removeByIndex :: Int -> [a] -> [a]
-removeByIndex _ [] = []
-removeByIndex i xs = take i xs ++ drop (i + 1) xs
+removeByIndex n = map snd . filter (\(i, _) -> i /= n) . zip [0 ..]
 
 checkBill :: Int -> Int -> [Int] -> String
 checkBill k b bill =
