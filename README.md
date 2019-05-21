@@ -1,4 +1,4 @@
-# hackerrank-haskell
+# hackerrank
 
 HackerRank solutions written in Haskell
 
